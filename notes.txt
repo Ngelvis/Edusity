@@ -1,0 +1,308 @@
+
+DATA TYPES
+String 
+Boolean
+Array
+Object
+Number
+
+
+Arithmetic operators + * - /
+Comparison operators ==  != > <
+
+Logical operators 
+            AND - && both of them
+            OR - || 0ne of them
+            NOT - ! either one of them or none
+
+Assignment Operators 
+
+            assign =
+            add and assign +=
+            subtract and assign -=
+
+Unary Operators 
+
+            decrement --
+            increment ++
+
+Tinary Operators
+
+            condition ? value1 : value2
+
+
+CONTROL FLOW
+      1. Conditional Statement if...else statement
+      2. Loops - Its loops through until a condition is met for,while, do..while
+      
+
+STRING METHODS
+      .slice()
+      .replace()
+      .toLowerCase()
+      .toUpperCase()
+      .split()
+      .repeat()
+      .indexOf()
+      .subString()
+      .lastIndexOf()
+
+NUMBER METHODS 
+      .toFixed()
+      Number.isInteger()
+      Math.floor()
+      Math.max()
+
+
+
+
+ARRAYS AND FUNCTIONS
+
+ARRAYS
+similar items
+items has index Number
+Array counts from 0
+add items
+remove items
+change items
+items inside an array are called Elements
+Arrays can have the same and different data types
+
+
+FUNCTIONS
+takes input (parameters or arguments)
+give output
+helps to divid your code into modules
+makes your code clean
+it's reuseable
+
+METHODS
+
+
+ARRAY OF METHODS
+.push() - add elements to an array
+.pop() - remove elements from an array
+.splice() - remove and add elements from a specific index
+.concat() - Helps to join two arrays
+.map() - helps to map out items in an array
+.sort() - sorts elements
+.filter() - its you filter out elements that meets certian condition
+
+
+TYPES OF FUNCTIONS
+1. Named Functions - key word "function" & "name"
+2. Anonymous Functions 
+      i. They are declared without a name
+      ii. They are callback functions OR
+      iii. Immediately invoked
+3. Arrow Functions
+      i. They have concise syntax
+      ii. Anonymous by default.
+
+
+FUNCTION HOISTING
+      i. helps to call a function before declaration
+
+
+OBJECT ORIENTATED PROGRAMMING (OOP)
+      I. based on objects
+      II. contains data
+      III. organize your code into objects that interract with each other
+      IV. methods 
+
+      V. Class ===> Object ===> instances of that class
+      VI. Inheritance 
+            *Allows you to inherit properties and methods of another class
+            * It allows code reuse.
+            *Allows us to declare hirachy of a class
+
+      VII. Polymorphism
+            *Allows objects of different classes to treated as an 
+             object of a common superclass.
+            * Its allows for flexibility and Extensibility of your software design
+
+
+CLASS AND JSON
+
+      CLASS 
+      i. it is a blueprint for objects
+
+      CONSTRUCTOR
+      i. it is a special method called automatically
+      ii. it contains the property of a class
+
+      JSON
+      i. its a format that makes it easy for humans to read and write
+      and easy for machines to parse and generate.
+      ii. It is use to transmit data between server and web applications
+      iii. Storing data
+
+      COVERTING OBJECTS
+      NESTED JSON
+      STORING DATA LOCALLY WITH JSON
+
+
+      
+      FORMATS - objects & Array
+      OBJECT - Key-value pairs enclosed in {}
+      ARRAY - similar values enclosed in []
+
+      ASYNCHRONOUS OEPRATION 
+      i.They are tasks that may take some time to complete
+      ii. comon with fetching data from server, reading files or expecting user input
+
+      REGEX OR REGEXP OR REGULAR EXPRESSION
+            i. It allows to patterns used to match character combinations
+            ii. They can be use for searching, manipulating, validation.
+
+            
+
+
+
+
+
+
+Patterns: Regular expressions are composed of literal characters 
+(e.g., letters, digits) and metacharacters (e.g., ^, $, ., *, +, ?, \, @).
+Patterns define the rules for matching text.
+
+
+Metacharacters: Metacharacters are special characters in regex 
+that have special meanings.
+.: Matches any single character except newline.
+^: Matches the beginning of a line.
+$: Matches the end of a line.
+*: Matches zero or more occurrences of the preceding character.
++: Matches one or more occurrences of the preceding character.
+?: Matches zero or one occurrence of the preceding character.
+\: Escapes metacharacters to treat them as literal characters.
+
+
+
+Quantifiers: Quantifiers specify how many times a character or group can occur.
+*: Zero or more occurrences.
++: One or more occurrences.
+?: Zero or one occurrence.
+{n}: Exactly n occurrences.
+{n,}: At least n occurrences.
+{n,m}: Between n and m occurrences.
+
+
+Character Classes: Character classes allow you to match any one of a set of characters.
+[...]: Matches any single character inside the brackets.
+[^...]: Matches any single character not inside the brackets.
+\d: Matches any digit (equivalent to [0-9]).
+\w: Matches any word character (letters, digits, underscore).
+\s: Matches any whitespace character (space, tab, newline).
+
+Anchors: Anchors are used to specify the position in the text where the match must occur.
+^: Matches the beginning of a line.
+$: Matches the end of a line.
+Boundaries: Boundaries are used to define word boundaries in the text.
+\b: Matches a word boundary (the position between a word character and a non-word character).
+\B: Matches a non-word boundary.
+
+
+Grouping: Grouping allows you to treat multiple characters as a single unit.
+(): Parentheses are used to create a capturing group.
+Capturing: Capturing groups remember the text matched by the group for later use.
+\1, \2, ...: Backreferences allow you to reuse the text matched by capturing groups.
+
+
+
+
+
+REACT 
+
+libary and Frameworks
+
+      LIBARY 
+      - Reuseable code modules or function for a specific tasks
+      - imported into your application to perform a tasks
+      
+      FRAMEWORKS 
+      - It determines the structure and architecture of your application
+      
+      DIFFERENCE
+      -Framework is an architecture for building application while
+      provide specific funtionalities for your application.
+
+      REACT INTRO
+      - react is a libary and it was created by Facebook and it is used for
+      creating user interface for web applcations.
+
+      Key concepts of React 
+            I. COMPONENTS
+      - they are broken down into reuseable components
+      - you can have components for sidebar, navbar, button, e.t.c
+
+            II. VIRTUAL DOM
+      - it is a copy of the real DOM
+      - react compares the virtual DOM with the real DOM
+
+            III. JSX
+      - it is an extensioin of JavaScript
+      - it allows you to write HTML-Like code 
+
+            IV. PROPS 
+      - They are used to pass Data from parent component to a child
+      component.
+      - It is a read-only data
+
+
+
+      INSTALLATION PROCESS
+      - create an empty folder
+      - open your terminal
+      - navigate to the folder using "cd your folder"
+      - type the command npx install -g create-react-app
+      - type the command npm create-react-app name of app
+      - cd name of app
+      - use the command npm start to launch your local server
+
+
+
+
+
+      REACTJS AND NEXT.JS
+      -------------------
+      REACTJS
+      - UI  and rendering them efficiently
+      - It is primarily for client side rendering
+      - It uses 3rd party routing libraries
+      - It requires some third party configuration to render server
+      to render server or perform operations from the server-side
+
+      NEXTJS
+      - It is a react framework and it's built with additional features.
+      - it is focused on server-side-rendering (SSR), it renders on the 
+      server side before sending to the client side.
+      - it improves your SEO.
+      - Nextjs has a file-based routing
+
+
+      API ROUTE & DATA fetching
+
+      API - 
+
+
+
+How React works
+
+
+index.html <=== index.js (reactDOM)
+<=== app.js <=== components.js <=== 
+      
+ React styling     
+index.css <=== app.css <=== components.css
+
+
+
+STATE MANAGEMENT IN REACT 
+---------------------------
+React Hooks
+----------------
+      1. useState
+      2. useEffect
+      3. useReducer
+      4. useContext
