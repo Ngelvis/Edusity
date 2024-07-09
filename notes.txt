@@ -302,7 +302,51 @@ STATE MANAGEMENT IN REACT
 ---------------------------
 React Hooks
 ----------------
-      1. useState
-      2. useEffect
-      3. useReducer
-      4. useContext
+      1. useState - It allows your function to update the state value
+      2. useEffect - Used to add side effects
+      3. useReducer - (It is a controller) It controls how the information changes in the app based on different
+      4. useContext - It allows us share data globally across our application
+
+
+
+
+
+React Slug
+- Friendly URL
+- Makes use of react router DOM
+
+React Flip
+- I helps you animate changes to a list of items 
+
+React KONVA
+- It helps to draw complex canvas
+- It enables high performance animation, node nesting, layering, filtering, caching, transitions
+
+React Gesture handler
+- It allows you to handle gestures
+
+React 360
+- It is used to create VR and 3D environment/ user interface
+- It allows us to develop complex UI
+
+React transitions
+- It allow page transitions
+
+React Toastify
+- It allows application of  notifications 
+
+React Visuals 
+- Representation of 
+
+React Swipper
+
+
+
+PERFORMANCE OPTIMIZATION
+------------------------
+- performance optimization helps to improve the speed of your website.
+- Small files: You need to compress big files such as images and videos.
+- Clean code: remove unnecessary white space, unused importations and libraries.
+- Lazy Loading: 
+
+ 
